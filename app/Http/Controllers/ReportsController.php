@@ -106,6 +106,6 @@ class ReportsController extends Controller
 
         Reports::find($request->id)->delete();
 
-        return response()->json(['code' => 200, 'description' => 'Properties has been successfully deleted.']);
+        return response()->json(['code' => 200, 'description' => 'Reports has been successfully deleted.']);
     }
 }
